@@ -9,5 +9,5 @@ body.addEventListener("touchmove", (e) => {
 });
 body.addEventListener("contextmenu", (e) => {
   console.log("contextmenu Click");
-//   e.preventDefaug
+  e.preventDefault();
 });

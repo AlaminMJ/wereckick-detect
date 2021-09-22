@@ -6,6 +6,7 @@ body{
     box-sizing: border-box;
     background-color: royalblue;
     padding: 40px;
+    user-select: none;
 }
 h2{
     font-size: 20px;
